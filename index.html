@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<!--    Roboto Tab Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+<!--    Roboto Tab Font-->
+
+<!--    Roboto Condensed-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&family=Noto+Sans+SC&family=Roboto+Condensed:ital,wght@0,400;1,300;1,400&display=swap" rel="stylesheet">
+<!--    Roboto Condensed-->
+
+    <link rel="stylesheet" href="./style.css">
+    <script defer type="module" src="extra-src/app.js"></script>
+</head>
+<body>
+      <div id="all-content">
+          <nav id="navbar">
+              <div class="nav-item" id="item-1">
+                  <span id="menuBT" class="material-symbols-outlined">menu</span>
+              </div>
+              <div class="nav-item" id="item-2">
+                  <span class="material-symbols-outlined">check_circle</span>
+                  <h1>What<span>ToDo</span></h1>
+              </div>
+              <div class="nav-item" id="item-3">
+                  <span class="material-symbols-outlined">mail</span>
+              </div>
+          </nav>
+
+          <div id="all-bars">
+              <div class="hide" id="left-bar">
+                  <div id="home-item-container">
+                      <h1>Home</h1>
+                  </div>
+                  <ul id="orginizer">
+                      <li id="all-task">
+                          <span class="material-symbols-outlined">content_paste</span>
+                          <span>All Task</span>
+                      </li>
+                      <li id="today">
+                          <span class="material-symbols-outlined">description</span>
+                          <span>Today</span>
+                      </li>
+                      <li id="next-7-days">
+                          <span class="material-symbols-outlined">overview</span>
+                          <span>Next 7 Days</span>
+                      </li>
+                      <li id="important">
+                          <span class="material-symbols-outlined">diagnosis</span>
+                          <span>Important</span>
+                      </li>
+                  </ul>
+                  <div id="project-title-container">
+                      <h1>Projects</h1>
+                  </div>
+                  <ul id="project-sorter">
+                      <li>
+                        <span class="material-symbols-outlined">add</span>
+                        <span>Add Project</span>
+                      </li>
+                  </ul>
+              </div>
+
+              <div id="right-bar">
+
+              </div>
+          </div>
+
+      </div>
+</body>
+</html>
